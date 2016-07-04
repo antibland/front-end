@@ -27,7 +27,7 @@ This course is neither letter-graded nor pass/fail. The assumption is that youâ€
 2. **CSS**
  * [Positioning Basics](https://antibland.github.io/front-end/project_files/css/positioning_basics.html) 
  * [Two Columns](https://antibland.github.io/front-end/project_files/css/two_columns.html) 
- * [TWo Columns Responsive](https://antibland.github.io/front-end/project_files/css/two_columns_responsive.html)
+ * [Two Columns Responsive](https://antibland.github.io/front-end/project_files/css/two_columns_responsive.html)
  * [Three Columns Fluid Middle](https://antibland.github.io/front-end/project_files/css/three_columns_fluid_middle.html) 
  * [Flexbox Ordering](https://antibland.github.io/front-end/project_files/css/flexbox_ordering.html) 
 
