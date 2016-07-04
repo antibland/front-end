@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Transition</title>
+    <style>
+      .total-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      button {
+        background: gray;
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+        -webkit-appearance: none;
+        font-size: 120%;
+        padding: 1em 1.5em;
+        border: none;
+        box-shadow: 0 17px 10px -10px rgba(0, 0, 0, 0.4);
+        transition: 0.5s;
+      }
+
+      button:hover,
+      button:focus {
+        transform: translateY(-10px);
+        box-shadow: 0 37px 20px -20px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container total-center">
+      <button>Hover Over Me</button>
+    </div>
+  </body>
+</html>

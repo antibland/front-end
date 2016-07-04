@@ -32,6 +32,7 @@ This course is neither letter-graded nor pass/fail. The assumption is that youâ€
  * [Two Columns Responsive](https://antibland.github.io/front-end/project_files/css/two_columns_responsive.html)
  * [Three Columns Fluid Middle](https://antibland.github.io/front-end/project_files/css/three_columns_fluid_middle.html)
  * [Flexbox Ordering](https://antibland.github.io/front-end/project_files/css/flexbox_ordering.html)
+ * [Hover Transition](https://antibland.github.io/front-end/project_files/css/hover_transition.html)
 
 3. **JavaScript**
   * [Hello World](https://antibland.github.io/front-end/project_files/javascript/hello_world.html)
