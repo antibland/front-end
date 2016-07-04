@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Positioning Basics</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-size: 100%;
+      }
+
+      .inline {
+        display: inline;
+      }
+
+      .block {
+        display: block;
+      }
+
+      .inline-block {
+        display: inline-block;
+      }
+
+      .flex {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .flex-child {
+        flex: 1 1 25%;
+      }
+
+      .flex-child:first-child {
+        background-color: red;
+      }
+
+      .flex-child:last-child {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      I'm <code>block</code>
+    </div>
+    <div class="inline-block">
+      I'm <code>inline-block</code>
+    </div>
+    <div class="inline">
+      I'm <code>inline</code>
+    </div>
+    <div class="flex">
+      <div class="flex-child">
+        I'm <code>flexbox</code> child 1
+      </div>
+      <div class="flex-child">
+        I'm <code>flexbox</code> child 2
+      </div>
+      <div class="flex-child">
+        I'm <code>flexbox</code> child 3
+      </div>
+      <div class="flex-child">
+        I'm <code>flexbox</code> child 4
+      </div>
+      <div class="flex-child">
+        I'm <code>flexbox</code> child 5
+      </div>
+    </div>
+  </body>
+</html>
