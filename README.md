@@ -20,6 +20,16 @@ Each class will be split up with a lecture portion and number of individual and 
 
 This course is neither letter-graded nor pass/fail. The assumption is that you’re here because you want to be. If you come out of the course feeling hungry for what’s next to come, it’s safe to say you took something valuable from our eighteen hours together. The only thing I ask is that you try to challenge yourself and (if possible) help others around you.
 
+## Project Files
+
 1. **HTML**
 
-  * What is it?
+ * [Basic Page](https://antibland.github.io/front-end/project_files/html/basic_page.html)
+ 
+2. **CSS**
+ * [Positioning Basics](https://antibland.github.io/front-end/project_files/css/positioning_basics.html) 
+ * [Two Columns](https://antibland.github.io/front-end/project_files/css/two_columns.html) 
+ * [Two Columns Responsive](https://antibland.github.io/front-end/project_files/css/two_columns_responsive.html)
+ * [Three Columns Fluid Middle](https://antibland.github.io/front-end/project_files/css/three_columns_fluid_middle.html) 
+ * [Flexbox Ordering](https://antibland.github.io/front-end/project_files/css/flexbox_ordering.html) 
+
