@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox Ordering</title>
+    <style>
+      .container {
+        display: flex;
+      }
+
+      .container div:first-child,
+      .container div:last-child {
+        flex: 0 0 300px;
+      }
+
+      @media (max-width: 800px) {
+        .container div:first-child {
+          order: 2;
+        }
+
+        .container div:last-child {
+          order: -1;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          flex-direction: column;
+        }
+
+        .container div:first-child,
+        .container div:last-child {
+          order: initial;
+          flex: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h2>My Links</h2>
+        <ul>
+          <li><a href="#">My GitHub Repo</a></li>
+          <li><a href="#">My Snappy Twitter Page</a></li>
+          <li><a href="#">All Things Facebook</a></li>
+          <li><a href="#">My Amazing Life on Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I'm a heck of a person. I fish, work for 14 charities, adopt every available dog in the pound, and more. Some say I'm amazing, but in truth, I'm just quite impressive.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
