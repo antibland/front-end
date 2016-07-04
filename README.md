@@ -22,4 +22,8 @@ This course is neither letter-graded nor pass/fail. The assumption is that youâ€
 
 1. **HTML**
 
-  * What is it?
+ * [Basic Page](https://antibland.github.io/front-end/project_files/html/basic_page.html)
+ 
+2. **CSS**
+ * [Positioning Basics](https://antibland.github.io/front-end/project_files/css/positioning_basics.html) 
+
