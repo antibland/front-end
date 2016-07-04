@@ -20,6 +20,8 @@ Each class will be split up with a lecture portion and number of individual and 
 
 This course is neither letter-graded nor pass/fail. The assumption is that you’re here because you want to be. If you come out of the course feeling hungry for what’s next to come, it’s safe to say you took something valuable from our eighteen hours together. The only thing I ask is that you try to challenge yourself and (if possible) help others around you.
 
+## Project Files
+
 1. **HTML**
 
  * [Basic Page](https://antibland.github.io/front-end/project_files/html/basic_page.html)
