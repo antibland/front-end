@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bouncing Ball Animation (Physics)</title>
+    <style>
+      @keyframes bounce {
+        50% {
+          transform: translateY(-5em) scale(1, 1);
+        }
+        75% {
+          transform: transform: translateY(-2.5em) scale(1, 1);
+        }
+        100% {
+          transform: translateY(1.15em) scale(1.15, 0.85);
+        }
+      }
+
+      .total-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .ball {
+        display: inline-block;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        vertical-align: bottom;
+        transform: transform: translateY(-10em) scale(1, 1);
+        animation: 0.6s bounce infinite;
+      }
+
+      .ground {
+        position: relative;
+        height: 10px;
+        background-color: brown;
+        width: 200%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container total-center">
+      <div class="ball">
+      </div>
+      <div class="ground">
+
+      </div>
+    </div>
+  </body>
+</html>

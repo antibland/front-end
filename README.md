@@ -34,6 +34,7 @@ This course is neither letter-graded nor pass/fail. The assumption is that youâ€
  * [Flexbox Ordering](https://antibland.github.io/front-end/project_files/css/flexbox_ordering.html)
  * [Hover Transition](https://antibland.github.io/front-end/project_files/css/hover_transition.html)
  * [Bouncing Ball](https://antibland.github.io/front-end/project_files/css/bouncing_ball.html)
+ * [Bouncing Ball (Physics)](https://antibland.github.io/front-end/project_files/css/bouncing_ball_physics.html)
 
 3. **JavaScript**
   * [Hello World](https://antibland.github.io/front-end/project_files/javascript/hello_world.html)
