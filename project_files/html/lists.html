@@ -7,7 +7,21 @@
       *:last-of-type {
         border-bottom: none;
       }
-          
+
+      details summary {
+        outline: none;
+        display: inline-block;
+        border: 1px dotted transparent;
+        padding: 1em;
+        cursor: pointer;
+      }
+
+      details[open] summary,
+      details summary:hover,
+      details summary:focus {
+        border: 1px dotted rgba(0, 0, 0, 0.3);
+      }
+
       section {
         padding-bottom: 2em;
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
