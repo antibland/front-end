@@ -3,50 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>Lists</title>
+    <style>
+      *:last-of-type {
+        border-bottom: none;
+      }
+          
+      section {
+        padding-bottom: 2em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      }
+
+      pre {
+        padding: 1em 1em 0;
+        background-color: rgba(120, 120, 120, 0.3);
+      }
+    </style>
   </head>
   <body>
-    <h2>Ordered</h2>
-    <ol>
-      <li>First</li>
-      <li>Second</li>
-      <li>Third</li>
-    </ol>
-    <code><pre>
-    &#60;ol&#62;
-      &#60;li&#62;First&#60;/li&#62;
-      &#60;li&#62;Second&#60;/li&#62;
-      &#60;li&#62;Third&#60;/li&#62;
-    &#60;/ol&#62;
-    </pre></code>
-    <h2>Unordered</h2>
-    <ul>
-      <li>First</li>
-      <li>Second</li>
-      <li>Third</li>
-    </ul>
-    <code><pre>
-    &#60;ul&#62;
-      &#60;li&#62;First&#60;/li&#62;
-      &#60;li&#62;Second&#60;/li&#62;
-      &#60;li&#62;Third&#60;/li&#62;
-    &#60;/ul&#62;
-    </pre></code>
-    <h2>Definition</h2>
-    <dl>
-      <dt>Definition Title 1</dt>
-      <dd>Definition Data 1</dd>
-      <dd>Definition Data 2</dd>
-      <dt>Definition Title 2</dt>
-      <dd>Definition Data 1</dd>
-    </dl>
-    <code><pre>
-    &#60;dl&#62;
-      &#60;dt&#62;Definition Title 1&#60;/dt&#62;
-      &#60;dd&#62;Definition Data 1&#60;/dd&#62;
-      &#60;dd&#62;Definition Data 2&#60;/dd&#62;
-      &#60;dt&#62;Definition Title 2&#60;/dt&#62;
-      &#60;dd&#62;Definition Data 1&#60;/dd&#62;
-    &#60;/dl&#62;
-    </pre></code>
+    <section>
+      <h2>Ordered list</h2>
+      <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+      </ol>
+      <details>
+        <summary>Ordered list code</summary>
+        <code><pre>
+&#60;ol&#62;
+  &#60;li&#62;First&#60;/li&#62;
+  &#60;li&#62;Second&#60;/li&#62;
+  &#60;li&#62;Third&#60;/li&#62;
+&#60;/ol&#62;
+        </pre></code>
+      </details>
+    </section>
+
+    <section>
+      <h2>Unordered list</h2>
+      <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+      </ul>
+      <details>
+        <summary>Unordered list code</summary>
+        <code><pre>
+&#60;ul&#62;
+  &#60;li&#62;First&#60;/li&#62;
+  &#60;li&#62;Second&#60;/li&#62;
+  &#60;li&#62;Third&#60;/li&#62;
+&#60;/ul&#62;
+        </pre></code>
+      </details>
+    </section>
+
+    <section>
+      <h2>Definition list</h2>
+      <dl>
+        <dt>Definition Title 1</dt>
+        <dd>Definition Data 1</dd>
+        <dd>Definition Data 2</dd>
+        <dt>Definition Title 2</dt>
+        <dd>Definition Data 1</dd>
+      </dl>
+      <details>
+        <summary>Definition list code</summary>
+        <code><pre>
+  &#60;dl&#62;
+    &#60;dt&#62;Definition Title 1&#60;/dt&#62;
+    &#60;dd&#62;Definition Data 1&#60;/dd&#62;
+    &#60;dd&#62;Definition Data 2&#60;/dd&#62;
+    &#60;dt&#62;Definition Title 2&#60;/dt&#62;
+    &#60;dd&#62;Definition Data 1&#60;/dd&#62;
+  &#60;/dl&#62;
+        </pre></code>
+      </details>
+    </section>
   </body>
 </html>
