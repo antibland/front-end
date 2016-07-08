@@ -53,11 +53,11 @@ A terminal application provides a bridge between developers and their machines. 
 
 ## Project Files
 
-1. **HTML**
+### **HTML**
  * [Basic Page](https://antibland.github.io/front-end/project_files/html/basic_page.html)
  * [Lists](https://antibland.github.io/front-end/project_files/html/lists.html)
 
-2. **CSS**
+### **CSS**
  * [Positioning Basics](https://antibland.github.io/front-end/project_files/css/positioning_basics.html)
  * [Shapes](https://antibland.github.io/front-end/project_files/css/shapes.html)
  * [Two Columns](https://antibland.github.io/front-end/project_files/css/two_columns.html)
@@ -68,6 +68,6 @@ A terminal application provides a bridge between developers and their machines. 
  * [Bouncing Ball](https://antibland.github.io/front-end/project_files/css/bouncing_ball.html)
  * [Bouncing Ball (Physics)](https://antibland.github.io/front-end/project_files/css/bouncing_ball_physics.html)
 
-3. **JavaScript**
+### **JavaScript**
   * [Hello World](https://antibland.github.io/front-end/project_files/javascript/hello_world.html)
   * [User Input](https://antibland.github.io/front-end/project_files/javascript/user_input.html)
