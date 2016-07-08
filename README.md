@@ -20,6 +20,22 @@ Each class will be split up with a lecture portion and number of individual and 
 
 This course is neither letter-graded nor pass/fail. The assumption is that you’re here because you want to be. If you come out of the course feeling hungry for what’s next to come, it’s safe to say you took something valuable from our eighteen hours together. The only thing I ask is that you try to challenge yourself and (if possible) help others around you.
 
+## Setup
+
+Setting up your environment can be frustrating for first-time students. Don't be afraid to ask for help. We've all been through this before.
+
+### Atom
+Atom is a free piece of software we will use to write our code. [Download and Install Atom](https://atom.io/)
+
+*** Git
+When writing code, we eventually need to keep different versions of it. Maybe we wrote something last week that worked well and we accidentally broke it. With tools like Git, we can return to this version whenever we'd like.
+
+Most coding jobs out there will require you know Git. The reason is that you'll be working around other people pushing similar to code to yours. What if three people push change the same file and upload to a server? Without versioning software like Git, the last upload will "win". Amazingly, this was once the way we worked. Today, things are much more sane because of software like Git.
+
+1. [Installing on Mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac)
+1. [Installing on Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows)
+1. [Installing on Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)
+
 ## Project Files
 
 1. **HTML**
