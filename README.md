@@ -27,14 +27,29 @@ Setting up your environment can be frustrating for first-time students. Don't be
 ### Atom
 Atom is a free piece of software we will use to write our code. [Download and Install Atom](https://atom.io/)
 
-*** Git
-When writing code, we eventually need to keep different versions of it. Maybe we wrote something last week that worked well and we accidentally broke it. With tools like Git, we can return to this version whenever we'd like.
+### Git
+When writing code, we eventually need to keep different versions of it. Maybe we wrote something last week that worked well and we accidentally broke it. With tools like Git, we can return to the working version whenever we'd like.
 
 Most coding jobs out there will require you know Git. The reason is that you'll be working around other people pushing similar to code to yours. What if three people push change the same file and upload to a server? Without versioning software like Git, the last upload will "win". Amazingly, this was once the way we worked. Today, things are much more sane because of software like Git.
 
-1. [Installing on Mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac)
-1. [Installing on Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows)
-1. [Installing on Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)
+#### Installation
+
+* [Mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac)
+* [Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows)
+* [Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)
+
+#### Setup
+
+* [Mac](https://help.github.com/articles/set-up-git/#platform-mac)
+* [Windows](https://help.github.com/articles/set-up-git/#platform-windows)
+* [Linux](https://help.github.com/articles/set-up-git/#platform-linux)
+
+### Terminal
+
+A terminal application provides a bridge between developers and their machines. We will go over this in class, so don't stress about it if it seems complicated.
+
+* [iTerm2 (Mac)](https://www.iterm2.com/)
+* [PowerShell (Windows)](http://alternativeto.net/software/powershell/?platform=windows)
 
 ## Project Files
 
