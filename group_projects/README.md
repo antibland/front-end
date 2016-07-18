@@ -1,4 +1,4 @@
-# Group
+# Group Projects
 
 ## Click Event Handlers
 
