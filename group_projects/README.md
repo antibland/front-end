@@ -4,7 +4,9 @@
 
 We have three boxes and need to make them respond to user clicks. When a user clicks the first box, alert the user that the first box was clicked. Clicking the second box should alert the user that the second was clicked. Repeat for the third box.
 
-[Project files](https://antibland.github.io/front-end/group_projects/1/)
+## Project file(s)
+
+https://antibland.github.io/front-end/group_projects/1/
 
 ### Extra Credit
 
