@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loops and Iteration</title>
+</head>
+<body>
+  <p>
+    Check your console for output. If you don't see any output, uncomment one of the functions in the source code.
+  </p>
+  <script>
+    window.onload = function() {
+      "use strict";
+
+      /* -- for loop
+      **
+      ** Pretty standard structure. Start from zero (or any number) and advance
+      ** until a certain length. Typically, you will start your loops at zero. The
+      ** reason for this is that arrays also begin at zero. This is convenient.
+      */
+      function forLoop() {
+        var number = 1,
+            i;
+
+        for (i = 0; i < 10; i++) {
+          console.log("index = ", i);
+        }
+      }
+
+      //forLoop();
+
+      /* -- for loop through array
+      **
+      ** Often, you'll use a for loop to access elements in an array, as in the
+      ** following example. Notice that we store the length of the array before
+      ** traversing it. This is a performance enhancement so we avoid checking
+      ** for the length of the array at each iteration. Always do this.
+      */
+      function forLoopThroughArray() {
+        var arr = [45, 10, 6, 'cats', 'powerful warrior', 0],
+            len = arr.length,
+            i;
+
+        for (i = 0; i < len; i++) {
+          console.log("index = ", i);
+          console.log("array value = " + arr[i]);
+        }
+      }
+
+      //forLoopThroughArray();
+
+      /* -- breaking out of a for loop
+      **
+      ** We don't always need to reach the end of a for loop. Sometimes we want
+      ** to stop after finding a certain thing we're looking for. After all,
+      ** what's the point of searching for something after you've already found
+      ** it?
+      */
+      function breakingForLoop() {
+        var arr = ['cat', 'bird', 'dragon', 'dog', 'giant'],
+            len = arr.length,
+            i;
+
+        for (i = 0; i < len; i++) {
+          if (arr[i] === 'dragon') {
+            console.log('Found the dragon. Exiting...');
+            break;
+          } else {
+            console.log('I am not looking for a ' + arr[i]);
+            console.log('Continue searching...');
+          }
+        }
+      }
+
+      //breakingForLoop();
+
+      /* -- for in vs. for of
+      **
+      ** Although similar, there is one major difference between these two_columns
+      ** looping methods.
+      */
+      function forInVsForOf() {
+        var arr = [3, 5, 7], i, j;
+        arr.foo = "hello";
+
+        console.log("for in outputs property names");
+        for (i in arr) { // outputs property names
+           console.log(i); // logs "0", "1", "2", "foo"
+        }
+
+        console.log("for of outputs property values");
+        for (j of arr) { // outputs property values
+           console.log(j); // logs "3", "5", "7"
+        }
+      }
+
+      //forInVsForOf();
+
+      /* -- while loop
+      **
+      ** Though slighly less common, you'll use the while loop when you want
+      ** something to always happen given a certain condition.
+      */
+      function whileLoop() {
+        // This, by the way, is an object literal
+        var messages   = {
+              calm:  'Please enter the number 7',
+              stern: 'I am losing my patience. Please enter lucky 7',
+              crazy: 'I am going to freak out in a minute. 7!!!'
+            },
+           enter_seven = prompt(messages.calm),
+           attempts    = 0;
+
+        // If the user hasn't entered 7, keep asking until he caves
+        while (enter_seven !== '7') {
+          attempts++;
+          if (attempts >= 2 && attempts <= 4) {
+            enter_seven = prompt(messages.stern);
+          } else if (attempts > 4) {
+            enter_seven = prompt(messages.crazy);
+          } else {
+            enter_seven = prompt(messages.calm);
+          }
+        }
+
+        alert("Thanks for doing that");
+      }
+
+      //whileLoop();
+    }
+  </script>
+</body>
+</html>
