@@ -6,7 +6,7 @@ We have three boxes and need to make them respond to user clicks. When a user cl
 
 **Project file(s)** 
 
-https://antibland.github.io/front-end/group_projects/questions/1/
+https://github.com/antibland/front-end/tree/gh-pages/group_projects/questions/1
 
 **Extra Credit**
 
