@@ -71,3 +71,6 @@ A terminal application provides a bridge between developers and their machines. 
 ### **JavaScript**
   * [Hello World](https://antibland.github.io/front-end/project_files/javascript/hello_world.html)
   * [User Input](https://antibland.github.io/front-end/project_files/javascript/user_input.html)
+
+## Group Projects
+  * [Home](https://antibland.github.io/front-end/group_projects/README.md)
