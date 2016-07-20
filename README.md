@@ -59,6 +59,7 @@ A terminal application provides a bridge between developers and their machines. 
 
 ### **CSS**
  * [Positioning Basics](https://antibland.github.io/front-end/project_files/css/positioning_basics.html)
+ * [Pseudo Classes](https://antibland.github.io/front-end/project_files/css/pseudo_classes.html)
  * [Shapes](https://antibland.github.io/front-end/project_files/css/shapes.html)
  * [Two Columns](https://antibland.github.io/front-end/project_files/css/two_columns.html)
  * [Two Columns Responsive](https://antibland.github.io/front-end/project_files/css/two_columns_responsive.html)

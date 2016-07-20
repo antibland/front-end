@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo classes</title>
+    <style>
+      *:last-of-type {
+        border-bottom: none;
+      }
+
+      details summary {
+        outline: none;
+        display: inline-block;
+        border: 1px dotted transparent;
+        padding: 1em;
+        cursor: pointer;
+      }
+
+      details[open] summary,
+      details summary:hover,
+      details summary:focus {
+        border: 1px dotted rgba(0, 0, 0, 0.3);
+      }
+
+      section {
+        padding-bottom: 2em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      }
+
+      pre {
+        padding: 1em 1em 0;
+        background-color: rgba(120, 120, 120, 0.3);
+      }
+
+      h2+div {
+        margin-bottom: 1em;
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      ul.first-child li:first-child,
+      ul.last-child li:last-child,
+      ul.nth-child li:nth-child(2),
+      ul.not li:not(:nth-child(2)),
+      ul.even li:nth-child(even),
+      ul.odd li:nth-child(odd),
+      ul.every-third li:nth-child(3n+3)
+       {
+        background: yellow;
+        color: black;
+      }
+
+      ul li {
+        display: inline-block;
+        padding: 1.5em 2em;
+        background: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <h2>:first-child</h2>
+        <ul class="first-child">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+        <details open>
+          <summary>highlight first-child</summary>
+          <code><pre>
+li:first-child {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+
+      <section>
+        <h2>:last-child</h2>
+        <ul class="last-child">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+        <details open>
+          <summary>highlight last-child</summary>
+          <code><pre>
+li:last-child {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+
+      <section>
+        <h2>:nth-child</h2>
+        <ul class="nth-child">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+        <details open>
+          <summary>highlight second child</summary>
+          <code><pre>
+li:nth-child(2) {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+
+      <section>
+        <h2>:not</h2>
+        <ul class="not">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+        <details open>
+          <summary>highlight everything <em>but</em> the second child</summary>
+          <code><pre>
+li:not(:nth-child(2)) {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+
+      <section>
+        <h2>:even</h2>
+        <ul class="even">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+          <li>fourth</li>
+          <li>fifth</li>
+          <li>sixth</li>
+        </ul>
+        <details open>
+          <summary>highlight even children</summary>
+          <code><pre>
+li::nth-child(even) {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+
+      <section>
+        <h2>:odd</h2>
+        <ul class="odd">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+          <li>fourth</li>
+          <li>fifth</li>
+          <li>sixth</li>
+        </ul>
+        <details open>
+          <summary>highlight odd children</summary>
+          <code><pre>
+li:nth-child(odd) {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+
+      <section>
+        <h2>:nth-child(3n+3)</h2>
+        <ul class="every-third">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+          <li>fourth</li>
+          <li>fifth</li>
+          <li>sixth</li>
+          <li>seventh</li>
+          <li>eigth</li>
+          <li>ninth</li>
+        </ul>
+        <details open>
+          <summary>highlight every third child</summary>
+          <code><pre>
+li:nth-child(3n+3) {
+  background: yellow;
+  color: black;
+}
+          </pre></code>
+        </details>
+      </section>
+    </div>
+  </body>
+</html>
