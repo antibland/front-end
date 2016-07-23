@@ -1,5 +1,23 @@
 # Group Projects
 
+## Build a Practical Layout
+
+Constructing a three column layout was once a bit of a pain. Now, with flexbox, that's no longer the case. Often referred to as the "holy grail" of web layouts, build a three column layout with a header and footer. Search engines reward developers who use semantic elements in their markup, so let's use elements like `<header>`, `<footer>`, `<nav>`, `<main>` and `<aside>`.
+
+When you're done, your layout should look similar to this:
+
+<img src='https://dl.dropboxusercontent.com/u/24799515/holy_grail.png' alt='' width='500' />
+
+**Project file(s)**
+
+https://github.com/antibland/front-end/tree/gh-pages/group_projects/questions/0
+
+**Extra Credit**
+
+Three columns looks pretty bad on a phone. When the screen is 600 pixels and below, add a `@media query` so that your layout stacks appropriately.
+
+<img src='https://dl.dropboxusercontent.com/u/24799515/mobile.png' alt='' width='500' />
+
 ## Click Event Handlers
 
 We have three boxes and need to make them respond to user clicks. When a user clicks a box, alert the user that the particular box was clicked. To access the text in the box, use `innerHTML`. For example, if the second box was clicked, the user should be alerted something like, "You clicked box 2".
