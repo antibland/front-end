@@ -6,7 +6,7 @@ Constructing a three column layout was once a bit of a pain. Now, with flexbox, 
 
 When you're done, your layout should look similar to this:
 
-<img src='https://dl.dropboxusercontent.com/u/24799515/holy_grail.png' alt='' width='500' />
+<img src='https://dl.dropboxusercontent.com/u/24799515/holy_grail.png' alt='' width='600' />
 
 **Project file(s)**
 
