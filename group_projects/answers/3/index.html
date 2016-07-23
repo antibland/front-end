@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 3: Swapping Positions</title>
+  <style>
+    @keyframes roll-right {
+      to {
+        transform: translateX(350px);
+        background: black;
+      }
+    }
+
+    @keyframes roll-left {
+      to {
+        transform: translateX(-350px);
+        background: red;
+      }
+    }
+
+    .total-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .container {
+      width: 400px;
+      border-bottom: 5px solid gray;
+    }
+
+    .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      bottom: 0;
+      position: absolute;
+    }
+
+    .circle.red {
+      left: 0;
+      background: red;
+    }
+
+    .black {
+      right: 0;
+      background: black;
+    }
+
+    .roll-right {
+      animation: 2s roll-right forwards;
+    }
+
+    .roll-left {
+      animation: 2s roll-left forwards;
+    }
+  </style>
+</head>
+<body>
+  <div class="container total-center">
+    <div class="circle red roll-right"></div>
+    <div class="circle black"></div>
+  </div>
+  <script>
+    window.onload = init;
+
+    function rollBlackBallLeft() {
+      document.querySelector('.circle.black').classList.add('roll-left');
+    }
+
+    function init() {
+      document
+        .querySelector('.circle.red')
+        .addEventListener('animationend', rollBlackBallLeft);
+    }
+  </script>
+</body>
+</html>

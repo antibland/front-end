@@ -4,7 +4,7 @@
 
 We have three boxes and need to make them respond to user clicks. When a user clicks a box, alert the user that the particular box was clicked. To access the text in the box, use `innerHTML`. For example, if the second box was clicked, the user should be alerted something like, "You clicked box 2".
 
-**Project file(s)** 
+**Project file(s)**
 
 https://github.com/antibland/front-end/tree/gh-pages/group_projects/questions/1
 
@@ -16,13 +16,30 @@ When the user clicks on a box, *before the alert*, first prompt her for her name
 
 Users of our website are writing us to complain about a new popup feature we introduced. They're willing to see it once, but not every time they visit the website. Using `localStorage`, ensure that the `showPopup` function is only shown one time. Reloading the page should print nothing to the console.
 
-**Removing a `localStorage` key from the console.** 
+**Removing a `localStorage` key from the console.**
 
 If you need to remove a previously set storage key, open up developer tools and click the 'Resources' tab. Open the 'LocalStorage' folder and delete the key you wish to remove.
 
 <img src='https://dl.dropboxusercontent.com/u/24799515/remove_storage.png' alt='' width='500' />
 
-**Project file(s)** 
+**Project file(s)**
 
 https://github.com/antibland/front-end/tree/gh-pages/group_projects/questions/2
 
+## Swapping Positions
+
+Animations and transitions don't have a native awareness of when one another ends. However, animations and transitions can detect when they themselves have completed through the JavaScript events `animationend` and `transitionend`.
+
+Your mission is to swap the position of the two balls on the screen. When the red ball animates to the position of black ball, move the black ball to the original position of the red ball.
+
+ball1 -----> ball2
+
+ball2 <----- ball1
+
+**Project file(s)**
+
+https://github.com/antibland/front-end/tree/gh-pages/group_projects/questions/3
+
+**Extra Credit**
+
+In addition to swapping the position of the two balls, also swap their color.
