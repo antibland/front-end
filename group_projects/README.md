@@ -32,9 +32,7 @@ Animations and transitions don't have a native awareness of when one another end
 
 Your mission is to swap the position of the two balls on the screen. When the red ball animates to the position of black ball, move the black ball to the original position of the red ball.
 
-ball1 -----> ball2
-
-ball2 <----- ball1
+<img src='https://dl.dropboxusercontent.com/u/24799515/trade_paces.gif' alt='' width='500' />
 
 **Project file(s)**
 
