@@ -26,7 +26,7 @@ If you need to remove a previously set storage key, open up developer tools and 
 
 https://github.com/antibland/front-end/tree/gh-pages/group_projects/questions/2
 
-## Swapping Positions
+## Trading Places
 
 Animations and transitions don't have a native awareness of when one another ends. However, animations and transitions can detect when they themselves have completed through the JavaScript events `animationend` and `transitionend`.
 
