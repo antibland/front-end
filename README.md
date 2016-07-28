@@ -1,5 +1,16 @@
 # Intro to Front-end Web Development
 
+## Useful Git Commands ##
+
+- `git init` - places a directory on your computer to be under Git control
+- `git remote add origin https://github.com/user/repo.git` - sets a new remote
+- `git add .` - adds all modified or untracked files
+- `git commit -m "My commit message"`
+- `git checkout -b branch_name` - creates a new branch on your local machine
+- `git push -u origin <branch-name>` - pushes a new branch to your GitHub repository, creating the branch remotely
+- `git push` - After the new branch has already been pushed remotely, use this command to push your local changes
+- `git pull origin <branh-name>` - pulls and locally merges any remote changes into your current local branch
+
 ## What is this course all about?
 
 Front-end development, of course. Whether you’re curious about what this profession is all about or have poked around and now seriously consider moving towards it as a career, I’m here to help get you started.
