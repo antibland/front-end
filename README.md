@@ -1,9 +1,5 @@
 # Intro to Front-end Web Development
 
-## Need Extra Help? ##
-
-If you've got a burning question about something related to the class, feel free to email me [here](mailto:antibland@gmail.com?subject=Intro To Front-end Question). I'll do my best to get back to you quickly.
-
 ## Useful Git Commands ##
 
 - `git init` - places a directory on your computer to be under Git control
@@ -14,6 +10,10 @@ If you've got a burning question about something related to the class, feel free
 - `git push -u origin <branch-name>` - pushes a new branch to your GitHub repository, creating the branch remotely
 - `git push` - After the new branch has already been pushed remotely, use this command to push your local changes
 - `git pull origin <branh-name>` - pulls and locally merges any remote changes into your current local branch
+
+## Need Extra Help? ##
+
+If you've got a burning question about something related to the class, feel free to email me [here](mailto:antibland@gmail.com?subject=Intro To Front-end Question). I'll do my best to get back to you quickly.
 
 ## What is this course all about?
 
