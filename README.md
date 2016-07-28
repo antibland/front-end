@@ -1,5 +1,9 @@
 # Intro to Front-end Web Development
 
+## Need Extra Help? ##
+
+If you've got a burning question about something related to the class, feel free to email me [here](mailto:antibland@gmail.com?subject=Intro To Front-end Question). I'll do my best to get back to you quickly.
+
 ## Useful Git Commands ##
 
 - `git init` - places a directory on your computer to be under Git control
