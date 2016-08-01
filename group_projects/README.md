@@ -36,7 +36,7 @@ Users of our website are writing us to complain about a new popup feature we int
 
 **Removing a `localStorage` key from the console.**
 
-If you need to remove a previously set storage key, open up developer tools and click the 'Resources' tab. Open the 'LocalStorage' folder and delete the key you wish to remove.
+If you need to remove a previously set storage key, open up developer tools and click the 'Application' tab. Open the 'Local Storage' or 'Session Storage' folder (depending on which storage type you're using for your project) and delete the desired key.
 
 <img src='https://dl.dropboxusercontent.com/u/24799515/remove_storage.png' alt='' width='500' />
 
