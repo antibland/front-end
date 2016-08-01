@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox Max Items Per Row</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Lato);
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Lato';
+        color: #555;
+        line-height: 1.5em;
+        padding: 1em;
+      }
+
+      button,
+      .container {
+        margin-bottom: 1em;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        background: tan;
+        padding: 0 0 10px 10px;
+      }
+
+      .container:empty {
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+
+      .container div {
+        height: 20px;
+        flex: 1 1 25%;
+        background: gray;
+        border-right: 10px solid tan;
+        margin-top: 10px;
+      }
+
+      button {
+        font-family: 'Lato';
+        font-size: 1.2em;
+      }
+
+      .synopsis {
+        padding: 0.5em 1em;
+        background: rgba(211, 211, 211, 0.5); /* gray */
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dynamic Flexbox Demo</h1>
+    <button>Add One!</button>
+    <div class="container"></div>
+    <div class="synopsis">
+      <h2>What Are We Learning Here?</h2>
+      <ol>
+        <li>How to set a maximum number of items per row using flexbox</li>
+        <li>Adding an item to the <abbr title="Document Object Model">DOM</abbr> via JavaScript</li>
+        <li>Making repetitive tasks easier with functions</li>
+      </ol>
+    </div>
+  </body>
+  <script>
+    "use strict";
+    var button = get('button');
+
+    function get(el) {
+      return document.querySelector(el);
+    }
+
+    function addItem() {
+      var container = get('.container');
+      container.appendChild(
+        document.createElement('div')
+      );
+    }
+
+    button.addEventListener('click', addItem);
+  </script>
+</html>
