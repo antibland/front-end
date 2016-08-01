@@ -9,7 +9,13 @@
 - `git checkout -b branch_name` - creates a new branch on your local machine
 - `git push -u origin <branch-name>` - pushes a new branch to your GitHub repository, creating the branch remotely
 - `git push` - After the new branch has already been pushed remotely, use this command to push your local changes
-- `git pull origin <branh-name>` - pulls and locally merges any remote changes into your current local branch
+- `git pull origin <branch-name>` - pulls and locally merges any remote changes into your current local branch
+
+## CodePen Examples From Class ##
+- [All Examples](http://codepen.io/collection/AWxeYG/)
+- [Log All Input To Console](http://codepen.io/antibland/pen/bZjAYx?editors=1111) - We've got an HTML `input` and a JavaScript listener. We are logging everything the user types to the console. Recall that CodePen has a console of its own that you can open from the bottom of the interface. This means you don't need to open up the browser's inspector to see the result.
+- [Click Box & Get Its Contents](http://codepen.io/antibland/pen/GqBZjg)
+- [Flexbox 3-Column Layout](http://codepen.io/antibland/pen/zBLdGg)
 
 ## Need Extra Help? ##
 
