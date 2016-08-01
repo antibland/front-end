@@ -87,6 +87,7 @@ A terminal application provides a bridge between developers and their machines. 
  * [Three Columns Fluid Middle](https://antibland.github.io/front-end/project_files/css/three_columns_fluid_middle.html)
  * [Flexbox Ordering](https://antibland.github.io/front-end/project_files/css/flexbox_ordering.html)
  * [Flexbox Max Items Per Row](https://antibland.github.io/front-end/project_files/css/flexbox_max_items_per_row.html)
+ * [Style a Header](https://antibland.github.io/front-end/project_files/css/style_a_header.html)
  * [Hover Transition](https://antibland.github.io/front-end/project_files/css/hover_transition.html)
  * [Bouncing Ball](https://antibland.github.io/front-end/project_files/css/bouncing_ball.html)
  * [Bouncing Ball (Physics)](https://antibland.github.io/front-end/project_files/css/bouncing_ball_physics.html)

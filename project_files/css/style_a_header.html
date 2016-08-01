@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Style a Header</title>
+  <style>
+   @import url(https://fonts.googleapis.com/css?family=Lato);
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Lato';
+    }
+
+    main {
+      display: flex;
+    }
+
+    main div {
+      padding: 1em;
+    }
+
+    header {
+      background-image: url(https://hd.unsplash.com/photo-1422651355218-53453822ebb8);
+      background-color: #263d36;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      line-height: 1.2;
+      padding: 10vw 2em;
+      text-align: center;
+    }
+
+    header h1 {
+      color: white;
+      text-shadow: 0 2px 2px #555;
+      letter-spacing: 1px;
+      font-size: 2.4em;
+    }
+
+    @media (max-width: 580px) {
+      main {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header><h1>Wow, This Looks Good</h1></header>
+    <main>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </main>
+  </div>
+</body>
+</html>
