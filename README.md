@@ -11,6 +11,16 @@
 - `git push` - After the new branch has already been pushed remotely, use this command to push your local changes
 - `git pull origin <branch-name>` - pulls and locally merges any remote changes into your current local branch
 
+## Useful Terminal Commands ##
+
+- `mkdir directory_name` - Make a new directory called "directory_name"
+- `cd` - Change directory
+- `cd ~/Desktop`- Change directory to the desktop
+- `cd directory_name` - Move to a directory called "directory_name" relative to the current directory
+- `rm file_name.html` - Remove a file called "file_name.html"
+- `rm -rf directory_name` - Remove a directory called "directory_name"
+- `pwd` - Show the path to the current directory
+
 ## CodePen Examples From Class ##
 - [All Examples](http://codepen.io/collection/AWxeYG/)
 - [Log All Input To Console](http://codepen.io/antibland/pen/bZjAYx?editors=1111) - We've got an HTML `input` and a JavaScript listener. We are logging everything the user types to the console. Recall that CodePen has a console of its own that you can open from the bottom of the interface. This means you don't need to open up the browser's inspector to see the result.
