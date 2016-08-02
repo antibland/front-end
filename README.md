@@ -17,7 +17,7 @@
 - [Click Box & Get Its Contents](http://codepen.io/antibland/pen/GqBZjg)
 - [Flexbox 3-Column Layout](http://codepen.io/antibland/pen/zBLdGg)
 
-## Need Extra Help? ##
+## Need Some Extra Help? ##
 
 If you've got a burning question about something related to the class, feel free to email me [here](mailto:antibland@gmail.com?subject=Intro To Front-end Question). I'll do my best to get back to you quickly.
 
