@@ -25,8 +25,10 @@
 - [All Examples](http://codepen.io/collection/AWxeYG/)
 - [Log All Input To Console](http://codepen.io/antibland/pen/bZjAYx?editors=1111) - We've got an HTML `input` and a JavaScript listener. We are logging everything the user types to the console. Recall that CodePen has a console of its own that you can open from the bottom of the interface. This means you don't need to open up the browser's inspector to see the result.
 - [Click Box & Get Its Contents](http://codepen.io/antibland/pen/GqBZjg)
-- [Flexbox 3-Column Layout](http://codepen.io/antibland/pen/zBLdGg)
-- [Flexbox Wrapping](http://codepen.io/antibland/pen/Wxgxmk)
+- Flexbox examples
+ - [Flexbox 3-Column Layout](http://codepen.io/antibland/pen/zBLdGg)
+ - [Flexbox Wrapping](http://codepen.io/antibland/pen/Wxgxmk)
+ - [Flexbox Photo Gallery](http://codepen.io/antibland/pen/grBOPN)
 
 ## Need Some Extra Help? ##
 
