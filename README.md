@@ -117,6 +117,8 @@ A terminal application provides a bridge between developers and their machines. 
 
 ### Reading
 
+* [em vs. px vs. pt vs %](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
+
 ### Books
 * JavaScript
  - [You Don't Know JS: Up & Going](https://www.amazon.com/You-Dont-Know-JS-Going/dp/1491924462/ref=sr_1_7?s=books&ie=UTF8&qid=1470346713&sr=1-7&keywords=eloquent+javascript)
@@ -124,6 +126,3 @@ A terminal application provides a bridge between developers and their machines. 
 
 * CSS
  - [CSS: The Missing Manual 4th Edition](https://www.amazon.com/CSS-Missing-David-Sawyer-McFarland/dp/1491918055/ref=sr_1_28?s=books&ie=UTF8&qid=1470346950&sr=1-28&keywords=beginning+css)
-
-#### Web
-[em vs. px vs. pt vs %](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
