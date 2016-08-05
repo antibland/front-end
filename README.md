@@ -117,6 +117,7 @@ A terminal application provides a bridge between developers and their machines. 
 
 ### Reading
 
+* [CSS Positioning](http://learnlayout.com/position.html)
 * [em vs. px vs. pt vs %](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
 
 ### Books
