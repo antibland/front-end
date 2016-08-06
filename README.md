@@ -123,6 +123,7 @@ A terminal application provides a bridge between developers and their machines. 
 * CSS
  - [CSS Positioning](http://learnlayout.com/position.html)
  - [em vs. px vs. pt vs %](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
+ - [Awesome Flexbox Tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Exercises
 
