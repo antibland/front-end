@@ -124,11 +124,12 @@ A terminal application provides a bridge between developers and their machines. 
  - [CSS Positioning](http://learnlayout.com/position.html)
  - [em vs. px vs. pt vs %](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
 
-## Exercises
+### Exercises
 
 * [Live JavaScript Tutorial](https://www.codecademy.com/learn/javascript)
 
 ### Books
+
 * JavaScript
  - [You Don't Know JS: Up & Going](https://www.amazon.com/You-Dont-Know-JS-Going/dp/1491924462/ref=sr_1_7?s=books&ie=UTF8&qid=1470346713&sr=1-7&keywords=eloquent+javascript)
  - [Eloquent JavaScript](https://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593275846/ref=sr_1_1?s=books&ie=UTF8&qid=1470346866&sr=1-1&keywords=eloquent+javascript)
